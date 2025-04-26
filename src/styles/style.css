@@ -1,4 +1,15 @@
 /** CSS STYLE **/
+:root {
+  --white: #fff;
+  --white-transparent: #d7ccc0;
+  --light-brown: #f5f4f0;
+  --orange: #fe8a02;
+  --brown: #42413c;
+  --dark-brown: #2a2626;
+  --dark-brown-transparent-: #908d8b;
+  --middle-brown: #b09a81;
+  --blue: #1085c5;
+}
 
 .hello {
   display: block;
