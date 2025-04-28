@@ -6,9 +6,20 @@
   --orange: #fe8a02;
   --brown: #42413c;
   --dark-brown: #2a2626;
-  --dark-brown-transparent-: #908d8b;
+  --dark-brown-transparent: #908d8b;
   --middle-brown: #b09a81;
   --blue: #1085c5;
+}
+
+body {
+  font-family: 'Open Sans', Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark-brown);
+}
+
+h1, h2, h3 {
+  font-family: Neucha, Tahoma, sans-serif;
 }
 
 .hello {
