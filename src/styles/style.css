@@ -20,6 +20,25 @@ body {
 
 h1, h2, h3 {
   font-family: Neucha, Tahoma, sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .hello {
