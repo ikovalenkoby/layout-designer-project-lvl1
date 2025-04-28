@@ -28,10 +28,6 @@ h1 {
   color: var(--orange);
 }
 
-.black-color {
-  color: var(--dark-brown);
-}
-
 h2 {
   font-size: 60px;
 }
@@ -51,6 +47,24 @@ h3 {
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
+}
+
+.relative {
+  position: relative;
+}
+
+.black-color {
+  color: var(--dark-brown);
+}
+
+.grid-2col {
+  display: grid;
+}
+
+.image-aside {
+  position: absolute;
+  top: 55px;
+  right: -270px;
 }
 
 .hello {
