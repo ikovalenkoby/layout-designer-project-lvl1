@@ -25,6 +25,11 @@ h1, h2, h3 {
 
 h1 {
   font-size: 72px;
+  color: var(--orange);
+}
+
+.black-color {
+  color: var(--dark-brown);
 }
 
 h2 {
@@ -33,6 +38,13 @@ h2 {
 
 h3 {
   font-size: 34px;
+}
+
+.background {
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 }
 
 .container {
