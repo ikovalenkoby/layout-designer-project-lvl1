@@ -105,7 +105,7 @@ h3 {
 .grid-3col {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2.7%;
+  gap: 0 2.7%;
 }
 
 .image-aside {
@@ -135,14 +135,6 @@ p {
   background-color: var(--middle-orange);
 }
 
-.mt-24 {
-  margin-top: 24px;
-}
-
-.mb-30 {
-  margin-bottom: 30px;
-}
-
 .video-section {
   position: relative;
 }
@@ -169,6 +161,7 @@ p {
 .card-item {
   display: block;
   padding: 24px;
+  margin-bottom: 5%;
 
   background-color: var(--white);
   text-decoration: none;
@@ -205,7 +198,19 @@ p {
 }
 
 .pb-0 {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
+}
+
+.mt-24 {
+  margin-top: 24px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 @media (max-width: 1110px) {
@@ -231,12 +236,6 @@ p {
     height: initial;
   }
 
-  .video-section::before {
-    content: '';
-    height: 12%;
-    bottom: 6%;
-  }
-
   .grid-3col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -258,22 +257,31 @@ p {
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 52px;
   }
 
-  h2 {
-    font-size: 34px;
+  h2, .card-title {
+    font-size: 43px;
   }
 
   h3 {
-    font-size: 21px;
+    font-size: 24px;
   }
 
   .container {
     padding: 30px 4vw;
   }
 
+  .header-title {
+    padding-bottom: 0;
+  }
+
   .mb-20-mobile {
     margin-bottom: 20px;
+  }
+
+  .card-number {
+    padding-bottom: 20px;
+    font-size: 56px;
   }
 }
