@@ -50,6 +50,20 @@ h3 {
   color: var(--orange);
 }
 
+.main-theme {
+  font-family: Neucha, Tahoma, sans-serif;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: var(--dark-brown-transparent);
+}
+
+.section-description {
+  font-family: Neucha, Tahoma, sans-serif;
+  font-size: 34px;
+  line-height: 1.2em;
+  color: var(--dark-brown);
+}
+
 .text-center {
   text-align: center;
 }
@@ -197,6 +211,22 @@ p {
   color: var(--brown);
 }
 
+.section-image {
+  vertical-align: middle;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  padding: 5px 10px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--middle-brown);
+}
+
 .pb-0 {
   padding-bottom: 0 !important;
 }
@@ -239,7 +269,17 @@ p {
   .grid-3col {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /*gap: 2.7%;*/
+  }
+
+  .section-title {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 850px) {
+  .section-image {
+    width: 100%;
+    height: inherit;
   }
 }
 
@@ -253,7 +293,10 @@ p {
   .grid-3col {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    /*gap: 2.7%;*/
+  }
+
+  .section-image {
+    width: 100%;
   }
 
   h1 {
