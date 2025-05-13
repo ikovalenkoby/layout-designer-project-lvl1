@@ -110,6 +110,19 @@ h3 {
   background-color: var(--brown);
 }
 
+.bg-middle-brown {
+  background-color: var(--middle-brown);
+}
+
+.bg-middle-brown,
+.bg-middle-brown .section-description {
+  color: var(--white);
+}
+
+.bg-middle-brown .main-theme {
+  color: var(--white-transparent);
+}
+
 .grid-2col {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -120,6 +133,16 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 2.7%;
+}
+
+.direction-reverse {
+  direction: rtl;
+  text-align: left;
+}
+
+.direction-reverse div {
+  text-align: left;
+  direction: ltr;
 }
 
 .image-aside {
