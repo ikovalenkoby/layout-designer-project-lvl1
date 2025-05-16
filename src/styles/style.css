@@ -68,6 +68,10 @@ h3 {
   text-align: center;
 }
 
+.text-small {
+  font-size: 12px;
+}
+
 .background {
   position: relative;
   background: var(--light-brown);
@@ -92,6 +96,13 @@ h3 {
   padding: 100px 0;
   position: relative;
   z-index: 2;
+}
+
+.container--footer {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 76px;
+  padding: 40px 55px;
 }
 
 .relative {
@@ -124,6 +135,14 @@ h3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0 2.7%;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
 }
 
 .direction-reverse {
@@ -163,12 +182,31 @@ p {
   background-color: var(--middle-orange);
 }
 
+.button--email {
+  width: 64px;
+  border: none;
+  position: relative;
+}
+
+.button--email:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/send.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+}
+
 .video-section {
   position: relative;
 }
 
 .video-section::before {
-  content:'';
+  content: '';
   position: absolute;
   height: 120px;
   width: 100vw;
@@ -195,7 +233,7 @@ p {
   text-decoration: none;
 }
 
-.card-item:hover  {
+.card-item:hover {
   background-color: var(--orange);
   text-decoration: none;
 }
@@ -241,7 +279,6 @@ p {
   background-color: var(--middle-brown);
 }
 
-
 .bg-middle-brown,
 .bg-middle-brown .section-description {
   color: var(--white);
@@ -254,6 +291,38 @@ p {
 .bg-middle-brown .section-title {
   color: var(--middle-brown);
   background-color: var(--white);
+}
+
+.container--footer * {
+  color: var(--white);
+}
+
+.footer-title {
+  line-height: 120%;
+  font-weight: normal;
+  margin: 0;
+}
+
+.label {
+  display: inline-block;
+  padding-bottom: 9px;
+  font-size: 18px;
+}
+
+.input {
+  height: 50px;
+  padding: 15px;
+  border: none;
+  width: 100%;
+}
+
+.contact-information {
+  margin-bottom: 111px;
+  font-size: 14px;
+}
+
+.contact-information a {
+  color: var(--blue);
 }
 
 .pb-0 {
@@ -307,6 +376,17 @@ p {
   .section-image {
     max-width: 100%;
     height: inherit;
+  }
+
+  .container--footer {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 20px 24px;
+  }
+
+  .contact-information {
+    margin-bottom: 35px;
   }
 }
 
