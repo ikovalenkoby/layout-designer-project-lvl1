@@ -205,19 +205,13 @@ p {
   position: relative;
 }
 
-.video-section::before {
-  content: '';
-  position: absolute;
-  height: 123px;
-  width: 100vw;
-  bottom: -20px;
-
-  background-color: var(--brown);
-}
-
 .video-link {
   display: inline-block;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.navigation-section {
+  padding-top: 100px;
 }
 
 .card-title {
@@ -339,6 +333,10 @@ p {
 
 .mb-0 {
   margin-bottom: 0;
+}
+
+.mb-minus-100 {
+  margin-bottom: -100px;
 }
 
 @media (max-width: 1110px) {
