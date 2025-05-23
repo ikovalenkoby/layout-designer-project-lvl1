@@ -98,10 +98,13 @@ h3 {
   z-index: 2;
 }
 
+.footer {
+  padding-top: 100px;
+}
+
 .container--footer {
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 76px;
+  margin-bottom: 74px;
   padding: 40px 55px;
 }
 
@@ -385,6 +388,10 @@ p {
 
   .contact-information {
     margin-bottom: 35px;
+  }
+
+  .footer {
+    padding-top: 50px;
   }
 }
 
