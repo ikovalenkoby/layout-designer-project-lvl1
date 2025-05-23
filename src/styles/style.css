@@ -134,7 +134,7 @@ h3 {
 .grid-3col {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 0 3.0%;
+  gap: 18px 2.8%;
 }
 
 .align-center {
@@ -221,9 +221,8 @@ p {
 .card-item {
   display: block;
   padding: 24px;
-  margin-bottom: 5%;
 
-  background-color: var(--white);
+  background-color: var(--light-brown);
   text-decoration: none;
 }
 
