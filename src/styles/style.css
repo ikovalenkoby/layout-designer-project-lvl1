@@ -100,6 +100,7 @@ h3 {
 
 .footer {
   padding-top: 100px;
+  padding-bottom: 111px;
 }
 
 .container--footer {
@@ -314,7 +315,6 @@ p {
 }
 
 .contact-information {
-  margin-bottom: 111px;
   font-size: 14px;
 }
 
@@ -381,17 +381,13 @@ p {
 
   .container--footer {
     margin: 0 auto;
-    margin-top: 50px;
     margin-bottom: 30px;
     padding: 20px 24px;
   }
 
-  .contact-information {
-    margin-bottom: 35px;
-  }
-
   .footer {
-    padding-top: 50px;
+    padding: 50px 0 30px;
+
   }
 }
 
