@@ -4,7 +4,7 @@
   --white-transparent: #d7ccc0;
   --light-brown: #f5f4f0;
   --orange: #fe8a02;
-  --middle-orange: #EA7600;
+  --middle-orange: #ea7600;
   --brown: #42413c;
   --dark-brown: #2a2626;
   --dark-brown-transparent: #908d8b;
@@ -17,14 +17,16 @@
 }
 
 body {
-  font-family: 'Open Sans', Tahoma, sans-serif;
+  font-family: "Open Sans", Tahoma, sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark-brown);
   margin: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: Neucha, Tahoma, sans-serif;
   line-height: 1.2em;
 }
@@ -103,7 +105,7 @@ h3 {
   padding-bottom: 111px;
 }
 
-.container--footer {
+.container-footer {
   margin: 0 auto;
   margin-bottom: 74px;
   padding: 40px 55px;
@@ -192,8 +194,8 @@ p {
   position: relative;
 }
 
-.button--email:before {
-  content: '';
+.button--email::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -230,15 +232,12 @@ p {
   text-decoration: none;
 }
 
-.card-item:hover {
-  background-color: var(--orange);
-  text-decoration: none;
-}
-
-.card-item:hover .card-number,
-.card-item:hover h3,
-.card-item:hover p {
-  color: var(--white);
+.card-number {
+  padding-bottom: 40px;
+  font-size: 64px;
+  font-family: Neucha, Tahoma, sans-serif;
+  line-height: 1;
+  color: var(--brown);
 }
 
 .card-item h3 {
@@ -253,17 +252,20 @@ p {
   margin-bottom: 0;
 }
 
-.card-number {
-  padding-bottom: 40px;
-  font-size: 64px;
-  font-family: Neucha, Tahoma, sans-serif;
-  line-height: 1;
-  color: var(--brown);
+.card-item:hover {
+  background-color: var(--orange);
+  text-decoration: none;
+}
+
+.card-item:hover .card-number,
+.card-item:hover h3,
+.card-item:hover p {
+  color: var(--white);
 }
 
 .section-image {
   vertical-align: middle;
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 15%);
 }
 
 .section-title {
@@ -291,7 +293,7 @@ p {
   background-color: var(--white);
 }
 
-.container--footer * {
+.container-footer * {
   color: var(--white);
 }
 
@@ -379,7 +381,7 @@ p {
     height: inherit;
   }
 
-  .container--footer {
+  .container-footer {
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 20px 24px;
@@ -387,7 +389,6 @@ p {
 
   .footer {
     padding: 50px 0 30px;
-
   }
 }
 
@@ -407,7 +408,8 @@ p {
     font-size: 52px;
   }
 
-  h2, .card-title {
+  h2,
+  .card-title {
     font-size: 43px;
   }
 
